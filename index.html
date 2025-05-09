@@ -1,0 +1,194 @@
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Подорож у світ Астеларії</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Подорож у світ Астеларії</h1>
+    </header>
+
+    <nav>
+      <button onclick="openTab(0)">Історія</button>
+      <button onclick="openTab(1)">Відео</button>
+      <button onclick="openTab(2)">Таблиця</button>
+      <button onclick="openTab(3)">Тест</button>
+    </nav>
+
+    <section class="active">
+      <h2><center>Історія Астеларії</center></h2>
+      <p>
+        <center>
+          У глибинах материка Еліар існувала країна, оповита магією — Астеларія.
+          Це була земля, де стихії жили у злагоді, а мудрі створіння оберігали
+          баланс. Але темрява прийшла з півночі — у вигляді володаря мороку
+          Зендора, який прагнув підкорити собі всі стихії.
+
+          <img
+            src="https://i.postimg.cc/Cxns7yc1/photo-2025-05-03-13-28-46.jpg"
+          />
+
+          Коли надія згасала, з’явився юний мандрівник на ім’я Ліарен. Його
+          серце було чистим, а душа — з’єднана з давніми силами предків. Він
+          вирушив у мандрівку, щоб знайти способи зупинити Зендора.
+
+          <img
+            src="https://i.postimg.cc/Jhhcq8yP/photo-2025-05-06-00-00-25.jpg"
+          />
+
+          Спершу Ліарен дістався вогняних гір Ренал. Легенди говорили, що там
+          мешкає дух полум’я, що не визнає людей. Та юнак витримав спеку й зумів
+          приборкати стихію вогню, ставши її провідником🐱‍👤.
+
+          <img
+            src="https://i.postimg.cc/HxP0D59p/photo-2025-05-03-13-55-30.jpg"
+          />
+
+          Після цього шлях привів його до Озера Зір. Це місце було священним —
+          тут водили хороводи русалки, а на поверхні з’являлися пророчі образи.
+          Саме там Ліарен побачив, як здолати темряву.
+
+          <img
+            src="https://i.postimg.cc/V6DgwNxy/photo-2025-05-05-23-59-26.jpg"
+          />
+
+          Зібравши силу п’яти стихій і здобувши підтримку народів Астеларії,
+          Ліарен кинув виклик Зендору. Їхня битва тривала сім днів і ночей, і
+          зрештою світло перемогло. Так почалася нова епоха Світла
+        </center>
+      </p>
+      <img src="" />
+    </section>
+
+    <section>
+      <h2><center>Фільм фєнтезі,приключения.</center></h2>
+
+      <center>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/wd3OvFMT9Yo?si=OwIzg9h2rIOwAZIl"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </center>
+    </section>
+
+    <section>
+      <h2><center>Таблиця героїв</center></h2>
+      <table>
+        <tr>
+          <th>Ім’я</th>
+          <th>Роль</th>
+          <th>Стихія</th>
+        </tr>
+        <tr>
+          <td>Ліарен</td>
+          <td>Герой</td>
+          <td>Вогонь</td>
+        </tr>
+        <tr>
+          <td>Саелія</td>
+          <td>Русалка</td>
+          <td>Вода</td>
+        </tr>
+        <tr>
+          <td>Гаур</td>
+          <td>Вартовий</td>
+          <td>Земля</td>
+        </tr>
+        <tr>
+          <td>Зендор</td>
+          <td>Антагоніст</td>
+          <td>Морок</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Тест по історії Астеларії</h2>
+      <form onsubmit="checkTest(event)">
+        <p>1. Як звали головного героя?</p>
+        <label><input type="radio" name="q1" value="false" /> Аліар</label
+        ><br />
+        <label><input type="radio" name="q1" value="true" /> Ліарен</label
+        ><br />
+        <label><input type="radio" name="q1" value="false" /> Зендор</label
+        ><br />
+
+        <p>2. Яка стихія в Горах Ренал?</p>
+        <label><input type="radio" name="q2" value="false" /> Лід</label><br />
+        <label><input type="radio" name="q2" value="true" /> Вогонь</label
+        ><br />
+        <label><input type="radio" name="q2" value="false" /> Повітря</label
+        ><br />
+
+        <p>3. Що символізує Озеро Зір?</p>
+        <label><input type="radio" name="q3" value="false" /> Магію вогню</label
+        ><br />
+        <label
+          ><input type="radio" name="q3" value="true" /> Пророків та
+          русалок</label
+        ><br />
+        <label
+          ><input type="radio" name="q3" value="false" /> Духів природи</label
+        ><br />
+        <p>4. Яка сила допомогла Ліарену побачити шлях до перемоги?</p>
+        <label><input type="radio" name="q4" value="false" /> Меч предків</label
+        ><br />
+        <label
+          ><input type="radio" name="q4" value="false" /> Сльози дракона</label
+        ><br />
+        <label
+          ><input type="radio" name="q4" value="true" /> Видіння з Озера
+          Зір</label
+        ><br />
+
+        <p>5. Хто був головним ворогом Астеларії?</p>
+        <label><input type="radio" name="q5" value="true" /> Зендор</label
+        ><br />
+        <label><input type="radio" name="q5" value="false" /> Ліарен</label
+        ><br />
+        <label><input type="radio" name="q5" value="false" /> Аліар</label
+        ><br />
+
+        <br />
+        <input type="submit" value="Перевірити" />
+      </form>
+      <p id="test-result"></p>
+    </section>
+
+    <footer>
+      <center>Автор: Торовик Петро; Контакти: +380 66 958 9672</center>
+    </footer>
+
+    <script>
+      function openTab(index) {
+        const sections = document.querySelectorAll("section")
+        sections.forEach((section, i) => {
+          section.classList.toggle("active", i === index)
+        })
+      }
+
+      function checkTest(event) {
+        event.preventDefault()
+        let correct = 0
+        const form = event.target
+        const answers = form.querySelectorAll('input[type="radio"]:checked')
+        answers.forEach((answer) => {
+          if (answer.value === "true") correct++
+        })
+        document.getElementById("test-result").innerText =
+          `Правильних відповідей: ${correct} із 5`
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        openTab(0)
+      })
+    </script>
+  </body>
+</html>
